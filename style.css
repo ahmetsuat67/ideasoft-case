@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --base-color: #ededed;
+  --text-color: #363232;
+  --sub-text: #7a7474;
+  --theme-color: #eebe00;
+  --error-color: #e60023;
+  --base-color-white: #fff;
+}
+
+body {
+  font-family: "Urbanist", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-wrapper {
+  max-width: 1500px;
+  margin: auto;
+  margin-top: 4rem;
+  padding: 0 1rem;
+}
+
+.main-header {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 125%;
+  text-align: center;
+  color: var(--text-color);
+}
+
+section {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: var(--sub-text);
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 2rem 0 2rem 0;
+  justify-content: center;
+}
+section .product-tab {
+  border-bottom: 2px solid var(--base-color);
+  padding: 0.5rem;
+  cursor: pointer;
+}
+section .selected {
+  color: var(--text-color);
+  border-bottom: 2px solid var(--theme-color);
+}
+
+section span {
+  display: inline-block;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 460px;
+  gap: 0.5rem;
+  border: 1px solid var(--base-color);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  position: relative;
+  margin-bottom: 1rem;
+  transition: box-shadow 0.5s ease, border-color 0.5s ease;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  gap: 0.5rem;
+}
+.card img {
+  max-width: 224px;
+  max-height: 224px;
+  object-fit: cover;
+  width: 100%;
+}
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-color: var(--theme-color);
+}
+
+.card .brand-name {
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 150%;
+  text-align: center;
+}
+
+.card .description {
+  color: var(--text-color);
+  font-weight: 500;
+  flex-grow: 1;
+  font-size: 1rem;
+  line-height: 150%;
+  text-align: center;
+}
+
+.card .discount {
+  text-decoration: none;
+  color: var(--error-color);
+  font-weight: 700;
+  border: 1px solid var(--error-color);
+  padding: 0.4rem;
+  border-radius: 5px;
+  font-size: 0.875rem;
+}
+
+.card .first-price {
+  color: var(--sub-text);
+  text-decoration: line-through;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.card .second-price {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+
+
+.card a {
+  position: relative;
+  display: block;
+}
+
+.card img#secondImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.card a:hover img#firstImg {
+  opacity: 0;
+}
+
+.card a:hover img#secondImg {
+  opacity: 1;
+}
+
+.soldOut {
+  font-family: "Inter", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--text-color);
+  color: #fff;
+  padding: 0.5rem 1.15rem;
+  font-weight: 700;
+  pointer-events: none;
+}
+
+.bookmark {
+  position: absolute;
+  top: 20px;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  gap: 0.5rem;
+}
+.bookmarkYellow,
+.bookmarkBlue {
+  width: 48px;
+  height: 40px;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 100%,
+    50% calc(100% - 12px),
+    0% 100%,
+    0% 0%
+  );
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.875rem;
+  padding-top: 0.3rem;
+  margin-top: -1rem;
+  pointer-events: none;
+  z-index: 1;
+}
+.bookmarkYellow {
+  width: 48px;
+  background: var(--theme-color);
+}
+.bookmarkBlue {
+  width: 72px;
+  background-color: #8d95c9;
+}
+
+.blaze-track {
+  gap: 0.3rem !important;
+  max-width: 1368px;
+}
+
+.blaze-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.blaze-pagination button.active {
+  color: #0000;
+  width: 1.625rem;
+  height: 0.26rem;
+  background-color: var(--theme-color);
+  border: none;
+  border-radius: 200px;
+}
+.blaze-pagination button {
+  color: #0000;
+  width: 6px;
+  height: 6px;
+  background-color: var(--base-color);
+  border-radius: 6px;
+  border: none;
+}
+
+.blaze-next,
+.blaze-prev {
+  height: 48px;
+  width: 48px;
+  padding: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+    background-position: center;
+}
+.blaze-prev {
+  border: 1px solid var(--base-color, #ededed);
+  background: var(--base-color-white, #fff);
+}
+.blaze-next {
+  transform: rotate(180deg);
+  border: 1px solid var(--theme-color, #eebe00);
+  background: var(--base-color-white, #fff);
+  margin-left: 0.5rem;
+}
