@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
       discount: 20,
       firstPrice: "250.90 TL",
       secondPrice: "215.90 TL",
-      foodImg: `./assets/images/tarator.png`,
-      sauceImg: `./assets/images/sos1.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/tarator.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos1.png`,
 
     },
     {
@@ -19,8 +19,8 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Marka Adı",
       description: "Ürün adı bu alanda yer alıyor ve iki satır olarak uzunlukta gelebilir",
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/pizza.png`,
-      sauceImg: `./assets/images/sos2.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/pizza.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos2.png`,
     },
     {
       category: "NEWEST",
@@ -28,8 +28,8 @@ document.addEventListener("DOMContentLoaded", function () {
       description: "Ürün adı bu alanda yer alıyor",
       discount: null,
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/et.png`,
-      sauceImg: `./assets/images/sos3.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/et.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos3.png`,
       soldOut: true
 
     },
@@ -40,8 +40,8 @@ document.addEventListener("DOMContentLoaded", function () {
       discount: 20,
       firstPrice: "250,90 TL",
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/makarna.png`,
-      sauceImg: `./assets/images/sos4.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/makarna.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos4.png`,
       bookMark: true
     },
     {
@@ -51,8 +51,8 @@ document.addEventListener("DOMContentLoaded", function () {
       discount: 20,
       firstPrice: "250.90 TL",
       secondPrice: "215.90 TL",
-      foodImg: `./assets/images/tarator.png`,
-      sauceImg: `./assets/images/sos1.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/tarator.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos1.png`,
 
     },
     {
@@ -60,8 +60,8 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Marka Adı",
       description: "Ürün adı bu alanda yer alıyor ve iki satır olarak uzunlukta gelebilir",
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/pizza.png`,
-      sauceImg: `./assets/images/sos2.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/pizza.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos2.png`,
     },
     {
       category: "NEWEST",
@@ -69,8 +69,8 @@ document.addEventListener("DOMContentLoaded", function () {
       description: "Ürün adı bu alanda yer alıyor",
       discount: null,
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/et.png`,
-      sauceImg: `./assets/images/sos3.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/et.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos3.png`,
       soldOut: true
 
     },
@@ -81,8 +81,8 @@ document.addEventListener("DOMContentLoaded", function () {
       discount: 20,
       firstPrice: "250,90 TL",
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/makarna.png`,
-      sauceImg: `./assets/images/sos4.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/makarna.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos4.png`,
       bookMark: true
     },
     {
@@ -92,8 +92,8 @@ document.addEventListener("DOMContentLoaded", function () {
       discount: 20,
       firstPrice: "250.90 TL",
       secondPrice: "215.90 TL",
-      foodImg: `./assets/images/tarator.png`,
-      sauceImg: `./assets/images/sos1.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/tarator.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos1.png`,
 
     },
     {
@@ -101,8 +101,8 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Marka Adı",
       description: "Ürün adı bu alanda yer alıyor ve iki satır olarak uzunlukta gelebilir",
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/pizza.png`,
-      sauceImg: `./assets/images/sos2.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/pizza.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos2.png`,
     },
     {
       category: "NEWEST",
@@ -110,8 +110,8 @@ document.addEventListener("DOMContentLoaded", function () {
       description: "Ürün adı bu alanda yer alıyor",
       discount: null,
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/et.png`,
-      sauceImg: `./assets/images/sos3.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/et.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos3.png`,
       soldOut: true
 
     },
@@ -122,8 +122,8 @@ document.addEventListener("DOMContentLoaded", function () {
       discount: 20,
       firstPrice: "250,90 TL",
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/makarna.png`,
-      sauceImg: `./assets/images/sos4.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/makarna.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos4.png`,
       bookMark: true
     },
     {
@@ -132,8 +132,8 @@ document.addEventListener("DOMContentLoaded", function () {
       description: "Ürün adı bu alanda yer alıyor",
       discount: null,
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/et.png`,
-      sauceImg: `./assets/images/sos3.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/et.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos3.png`,
       soldOut: true
 
     },
@@ -147,8 +147,8 @@ document.addEventListener("DOMContentLoaded", function () {
       discount: 20,
       firstPrice: "250.90 TL",
       secondPrice: "215.90 TL",
-      foodImg: `./assets/images/tarator.png`,
-      sauceImg: `./assets/images/sos1.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/tarator.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos1.png`,
 
     },
     {
@@ -158,8 +158,8 @@ document.addEventListener("DOMContentLoaded", function () {
       discount: 20,
       firstPrice: "250,90 TL",
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/makarna.png`,
-      sauceImg: `./assets/images/sos4.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/makarna.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos4.png`,
       bookMark: true
     },
     {
@@ -167,8 +167,8 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Marka Adı",
       description: "Ürün adı bu alanda yer alıyor ve iki satır olarak uzunlukta gelebilir",
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/pizza.png`,
-      sauceImg: `./assets/images/sos2.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/pizza.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos2.png`,
     },
     {
       category: "DISCOUNTS",
@@ -177,8 +177,8 @@ document.addEventListener("DOMContentLoaded", function () {
       discount: 20,
       firstPrice: "250.90 TL",
       secondPrice: "215.90 TL",
-      foodImg: `./assets/images/tarator.png`,
-      sauceImg: `./assets/images/sos1.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/tarator.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos1.png`,
 
     },
     {
@@ -186,8 +186,8 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Marka Adı",
       description: "Ürün adı bu alanda yer alıyor ve iki satır olarak uzunlukta gelebilir",
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/pizza.png`,
-      sauceImg: `./assets/images/sos2.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/pizza.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos2.png`,
     },
     {
       category: "DISCOUNTS",
@@ -195,8 +195,8 @@ document.addEventListener("DOMContentLoaded", function () {
       description: "Ürün adı bu alanda yer alıyor",
       discount: null,
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/et.png`,
-      sauceImg: `./assets/images/sos3.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/et.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos3.png`,
       soldOut: true
 
     },
@@ -207,8 +207,8 @@ document.addEventListener("DOMContentLoaded", function () {
       discount: 20,
       firstPrice: "250,90 TL",
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/makarna.png`,
-      sauceImg: `./assets/images/sos4.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/makarna.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos4.png`,
       bookMark: true
     },
     {
@@ -218,8 +218,8 @@ document.addEventListener("DOMContentLoaded", function () {
       discount: 20,
       firstPrice: "250.90 TL",
       secondPrice: "215.90 TL",
-      foodImg: `./assets/images/tarator.png`,
-      sauceImg: `./assets/images/sos1.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/tarator.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos1.png`,
 
     },
     {
@@ -227,8 +227,8 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Marka Adı",
       description: "Ürün adı bu alanda yer alıyor ve iki satır olarak uzunlukta gelebilir",
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/pizza.png`,
-      sauceImg: `./assets/images/sos2.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/pizza.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos2.png`,
     },
     {
       category: "DISCOUNTS",
@@ -236,8 +236,8 @@ document.addEventListener("DOMContentLoaded", function () {
       description: "Ürün adı bu alanda yer alıyor",
       discount: null,
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/et.png`,
-      sauceImg: `./assets/images/sos3.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/et.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos3.png`,
       soldOut: true
 
     },
@@ -248,20 +248,20 @@ document.addEventListener("DOMContentLoaded", function () {
       discount: 20,
       firstPrice: "250,90 TL",
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/makarna.png`,
-      sauceImg: `./assets/images/sos4.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/makarna.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos4.png`,
       bookMark: true
     },
 
     {
       category: "OUTLET",
-      name: "Marka 6",
+      name: "Marka Adı",
       description: "Ürün adı bu alanda yer alıyor ve iki satır olarak uzunlukta gelebilir",
       discount: 20,
       firstPrice: "250.90 TL",
       secondPrice: "215.90 TL",
-      foodImg: `./assets/images/tarator.png`,
-      sauceImg: `./assets/images/sos1.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/tarator.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos1.png`,
 
     },
     {
@@ -269,8 +269,8 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Marka Adı",
       description: "Ürün adı bu alanda yer alıyor ve iki satır olarak uzunlukta gelebilir",
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/pizza.png`,
-      sauceImg: `./assets/images/sos2.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/pizza.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos2.png`,
     },
     {
       category: "OUTLET",
@@ -278,8 +278,8 @@ document.addEventListener("DOMContentLoaded", function () {
       description: "Ürün adı bu alanda yer alıyor",
       discount: null,
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/et.png`,
-      sauceImg: `./assets/images/sos3.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/et.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos3.png`,
       soldOut: true
 
     },
@@ -290,8 +290,8 @@ document.addEventListener("DOMContentLoaded", function () {
       discount: 20,
       firstPrice: "250,90 TL",
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/makarna.png`,
-      sauceImg: `./assets/images/sos4.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/makarna.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos4.png`,
       bookMark: true
     },
     {
@@ -301,8 +301,8 @@ document.addEventListener("DOMContentLoaded", function () {
       discount: 20,
       firstPrice: "250.90 TL",
       secondPrice: "215.90 TL",
-      foodImg: `./assets/images/tarator.png`,
-      sauceImg: `./assets/images/sos1.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/tarator.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos1.png`,
 
     },
     {
@@ -310,8 +310,8 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Marka Adı",
       description: "Ürün adı bu alanda yer alıyor ve iki satır olarak uzunlukta gelebilir",
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/pizza.png`,
-      sauceImg: `./assets/images/sos2.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/pizza.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos2.png`,
     },
     {
       category: "OUTLET",
@@ -319,8 +319,8 @@ document.addEventListener("DOMContentLoaded", function () {
       description: "Ürün adı bu alanda yer alıyor",
       discount: null,
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/et.png`,
-      sauceImg: `./assets/images/sos3.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/et.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos3.png`,
       soldOut: true
 
     },
@@ -331,8 +331,8 @@ document.addEventListener("DOMContentLoaded", function () {
       discount: 20,
       firstPrice: "250,90 TL",
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/makarna.png`,
-      sauceImg: `./assets/images/sos4.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/makarna.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos4.png`,
       bookMark: true
     },
     {
@@ -342,8 +342,8 @@ document.addEventListener("DOMContentLoaded", function () {
       discount: 20,
       firstPrice: "250.90 TL",
       secondPrice: "215.90 TL",
-      foodImg: `./assets/images/tarator.png`,
-      sauceImg: `./assets/images/sos1.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/tarator.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos1.png`,
 
     },
     {
@@ -351,8 +351,8 @@ document.addEventListener("DOMContentLoaded", function () {
       name: "Marka Adı",
       description: "Ürün adı bu alanda yer alıyor ve iki satır olarak uzunlukta gelebilir",
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/pizza.png`,
-      sauceImg: `./assets/images/sos2.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/pizza.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos2.png`,
     },
     {
       category: "OUTLET",
@@ -360,8 +360,8 @@ document.addEventListener("DOMContentLoaded", function () {
       description: "Ürün adı bu alanda yer alıyor",
       discount: null,
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/et.png`,
-      sauceImg: `./assets/images/sos3.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/et.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos3.png`,
       soldOut: true
 
     },
@@ -372,8 +372,8 @@ document.addEventListener("DOMContentLoaded", function () {
       discount: 20,
       firstPrice: "250,90 TL",
       secondPrice: "215,90 TL",
-      foodImg: `./assets/images/makarna.png`,
-      sauceImg: `./assets/images/sos4.png`,
+      foodImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/makarna.png`,
+      sauceImg: `https://raw.githubusercontent.com/ahmetsuat67/ideasoft-case/main/assets/images/sos4.png`,
       bookMark: true
     },
   ];
