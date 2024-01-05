@@ -137,8 +137,8 @@ document.addEventListener("DOMContentLoaded", function () {
       soldOut: true
 
     },
-   
-  
+
+
 
     {
       category: "DISCOUNTS",
@@ -382,7 +382,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const productTabs = ["NEWEST", "DISCOUNTS", "OUTLET"];
   const tabs = document.querySelectorAll(".product-tab");
   tabs.forEach((el, index) => {
-    el.addEventListener("click", () => {
+    el.addEventListener("click", () => { // tıklanan tabın indexini alıyoruz
 
 
       let dataSlider = data.filter((item) => item.category.toLowerCase() === productTabs[index].toLowerCase())
@@ -405,7 +405,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <a href="https://www.linkedin.com/in/ahmet-suat-pinar/" target="_blank" style="position:relative">
             <img id="firstImg" src="${dataCard.foodImg}" alt="${dataCard.name}" class="card-img-top" />
             <img id="secondImg" src="${dataCard.sauceImg}" alt="${dataCard.name}" class="card-img-top" />
-            ${dataCard?.soldOut ? `<span class="soldOut">Tükendi</span>` : ""}
+            ${dataCard?.soldOut ? `<span class="soldOut">Tükendi</span>` : ""} 
           </a>
           <div class="card-body">
             <a href="https://www.linkedin.com/in/ahmet-suat-pinar/" target="_blank">
@@ -428,7 +428,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const createSlider = (data) => {
 
     const contCard = document.querySelector(".blaze-track");
-    if (contCard.firstChild) contCard.innerHTML = "";
+    if (contCard.firstChild) contCard.innerHTML = ""; // her seferinde yeni kartları eklemek ve önceki kartları temizlemek 
     data.slice(0, 12).forEach((dataCard) => {
       const cardEl = cardCreate(dataCard);
       contCard.appendChild(cardEl);
@@ -441,15 +441,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const mainSlider = new BlazeSlider(sliderEl, {
     all: {
-      slidesToShow: 4,
-      slidesToScroll: 4,
-      transitionTimingFunction: "linear",
-      loop: false,
+      slidesToShow: 4, // 4 tane göster
+      slidesToScroll: 4, // 4 tane kaydır
+      transitionTimingFunction: "linear", // geçiş efekti
+      loop: false, // döngü
     },
 
   });
 
-  const startSlider = (value = true) => {
+  const startSlider = (value = true) => { // slider başlangıç değerleri false olursa yeniden başlatıyoruz
     if (!value) mainSlider.refresh();
 
   };
